@@ -1,8 +1,12 @@
+/***** BASE STYLES *****/
+
 body {
     margin: 0;
     background-image: url("../assets/background.jpeg");
     background-size: cover;
 }
+
+/***** BEAT BOX *****/
 
 .container {
     width: 100%;
