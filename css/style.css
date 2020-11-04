@@ -17,13 +17,13 @@ body {
     display: grid;
     font-size: 2em;
     grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: 215px;
-    margin: 60px auto 20px;
+    margin: 60px auto;
 }
 
 .beat {
     grid-column: 1 / -1;
     cursor: pointer;
+    margin: 20px 0;
 }
 
 .beat .button {
