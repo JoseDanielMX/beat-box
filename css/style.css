@@ -23,6 +23,7 @@ body {
 
 .beat {
     grid-column: 1 / -1;
+    cursor: pointer;
 }
 
 .beat .button {

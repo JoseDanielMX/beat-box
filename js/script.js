@@ -72,3 +72,14 @@ triggerBeat = (event) => {
  * HINT: Log the keyCode of the key
  */
 document.addEventListener('keydown', triggerBeat)
+
+/**
+ * Function to play the beat by clicking a letter
+ */
+clickBeat = (event) => {
+    if (event in beats) {
+        let keyClick = beats[event];
+        keyClick.beat.play();
+        keyClick.button.select();
+    }
+}
